@@ -1,0 +1,227 @@
+
+.navbar1{  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 87%);
+  
+  margin-left: 2px;
+margin-bottom: 3px;
+  padding-left: 13px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-link{ background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 87%);
+  
+  margin-left: 8px;
+margin-top: 1px;
+  padding-left: 11px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-decoration: none;
+}
+  .btn1{
+  color: black;
+  background-color: rgb(231, 228, 228);
+  margin: 19px;
+  padding: 1px;
+  }
+  .screen-reader-text{
+      margin: -7px;
+      padding: 7px;
+  }
+    .flex{
+      margin-left: 25em;
+    }
+    
+    .container-fluid{
+       background-color: #189AB4 ;
+      
+    }
+    
+h2{
+    color: #189AB4;
+    font-size: 70px;
+    margin-left: 17px;
+}
+
+
+.pa{
+  padding: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-image: linear-gradient(to bottom, rgba(255,128,255,0.5), rgba(0,0,128,0.5));
+}
+.pa:hover{
+    border-radius: 50px;
+    background-color: chartreuse;
+    padding: 30px;
+}
+
+
+
+.film{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+	background-color: rgba(184, 174, 224, 0.5)
+}
+.mg{
+    width: 200px;
+    height: 300px;
+    padding-left: 3px;
+    padding-top: 3px;
+    margin-left: 45px;
+    
+}
+.mg:hover{
+
+    margin-left: 10px;
+    border-radius: 80px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+    
+  width: 100%;
+
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,212,255,1) 100%);
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: rgb(107, 97, 97);
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(245, 237, 237);
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+color:black;
+background-color: beige;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background:  rgb(250, 250, 96);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #30302a;
+  background-color:rgb(247, 247, 102);
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+  background-color: coral;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #8d1a1a;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 87%);;
+}
+footer a{
+  transition: all 0.3s ease;
+  color: beige;
+}
+footer a:hover{
+  color: #a6eb06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+
+}

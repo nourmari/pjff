@@ -1,0 +1,284 @@
+
+.navbar1{  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 87%);
+  
+  margin-left: 6px;
+margin-bottom: 3px;
+  padding-left: 13px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-link{ background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 87%);
+  
+  margin-left: 21px;
+margin-top: 1px;
+  padding-left: 19px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+
+.btn1{
+color: black;
+background-color: rgb(231, 228, 228);
+margin: 19px;
+padding: 1px;
+}
+.screen-reader-text{
+    margin: -7px;
+    padding: 7px;
+}
+  .flex{
+    margin-left: 25em;
+  }
+  
+  .container-fluid{
+     background-color: #189AB4 ;
+    
+  }
+ 
+.canon{
+  background-color: black;
+  padding-top: 280px;
+  height: 65em;
+   
+}
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 30px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  bottom: 680px;
+  right: 200px;
+  font-size: 170px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 18px;
+  right: 16px;
+  font-size: 40px;
+}
+
+/* Centered text */
+.a{
+  position: absolute;
+  bottom: 800px;
+  left: 4px;
+  width: 270px;
+  height: 210px;
+}
+.but{
+  display: flex;
+  width:50px  ;
+  height: 40PX;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 370px;
+  height: 490px;
+  margin-left: 100px;
+  margin-top: 70px;
+
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+
+}
+h4{ color: darkblue;
+  padding-top: 25px;
+}
+p{
+  color: blue;
+  background-color: cornsilk;
+  text-align: center;
+}
+
+.crd{ display: flex;
+margin-left: 80px;
+margin-top: 30px;
+background-color:black;
+padding-left: 9em;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+  }
+  footer{
+      
+    width: 100%;
+  
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,212,255,1) 100%);
+  }
+  footer .content{
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .content p,a{
+    color: #fff;
+  }
+  footer .content .box{
+    width: 33%;
+    transition: all 0.4s ease;
+  }
+  footer .content .topic{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+  
+  }
+  footer .content p{
+    text-align: justify;
+    color:black;
+background-color: beige;
+  }
+  footer .content .lower .topic{
+    margin: 24px 0 5px 0;
+  }
+  footer .content .lower i{
+    padding-right: 16px;
+  }
+  footer .content .middle{
+    padding-left: 80px;
+  }
+  footer .content .middle a{
+    line-height: 32px;
+  }
+  footer .content .right input[type="text"]{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    color: #d9d9d9;
+    background:  rgb(250, 250, 96);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 2px solid #222222;
+  }
+  footer .content .right input[type="submit"]{
+    height: 42px;
+    width: 100%;
+    font-size: 18px;
+    color: #30302a;
+    background-color:rgb(247, 247, 102);
+    outline: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 12px;
+    border: 2px solid #eb2f06;
+    transition: all 0.3s ease-in-out;
+  }
+  .content .right input[type="submit"]:hover{
+    background: none;
+    color:  #eb2f06;
+    background-color: coral;
+  }
+  footer .content .media-icons a{
+    font-size: 16px;
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 5px;
+    border: 2px solid #222222;
+    margin: 30px 5px 0 0;
+    transition: all 0.3s ease;
+  }
+  .content .media-icons a:hover{
+    border-color: #eb2f06;
+  }
+  footer .bottom{
+    width: 100%;
+    text-align: right;
+    color: #8d1a1a;
+    padding: 0 40px 5px 0;
+  }
+  footer .bottom a{
+    color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 87%);;
+  }
+  footer a{
+    transition: all 0.3s ease;
+    color: beige;
+  }
+  footer a:hover{
+    color: #a6eb06;
+  }
+  @media (max-width:1100px) {
+    footer .content .middle{
+      padding-left: 50px;
+    }
+  }
+  @media (max-width:950px){
+    footer .content .box{
+      width: 50%;
+    }
+    .content .right{
+      margin-top: 40px;
+    }
+  }
+  @media (max-width:560px){
+    footer{
+      position: relative;
+    }
+    footer .content .box{
+      width: 100%;
+      margin-top: 30px;
+    }
+    footer .content .middle{
+      padding-left: 0;
+    }
+  }
+  
